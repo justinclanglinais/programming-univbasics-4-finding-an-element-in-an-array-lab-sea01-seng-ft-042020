@@ -4,6 +4,7 @@ def find_element_index(array, value_to_find)
     value = array[count]
     if value == value_to_find
       return count 
-    count += 1 
+    else
+      count += 1 
   end
 end
